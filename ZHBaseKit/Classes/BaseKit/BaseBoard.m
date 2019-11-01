@@ -24,7 +24,7 @@
     self = [super init];
     if(self)
     {
-        self.modalPresentationStyle = UIModalPresentationFullScreen;
+         self.modalPresentationStyle = UIModalPresentationFullScreen;
         [self onload];
     }
     return self;

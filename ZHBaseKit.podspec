@@ -25,13 +25,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PZH' => '1505517260@qq.com' }
-  s.source           = { :git => 'https://github.com/Panzhenghui/ZHBaseKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Panzhenghui/ZHBaseKit.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZHBaseKit/Classes/**/*'
-  s.requires_arc = true
+   s.requires_arc = true
   
   # s.resource_bundles = {
   #   'ZHBaseKit' => ['ZHBaseKit/Assets/*.png']
@@ -39,6 +38,8 @@ Pod::Spec.new do |s|
 
 
     s.public_header_files = 'ZHBaseKit/Classes/ZHBaseKit/*.h'
+    s.source_files = 'ZHBaseKit/Classes/**/*'
+
     
 
   # s.frameworks = 'UIKit', 'MapKit'
