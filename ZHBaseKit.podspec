@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   # }
 
 
-    s.public_header_files = 'ZHBaseKit/Classes/ZHBaseKit/Base.h'
-    s.source_files = 'ZHBaseKit/Classes/ZHBaseKit/Base.h'  
+    s.public_header_files = 'ZHBaseKit/Classes/ZHBaseKit/*.h'
+    
 
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'Masonry'

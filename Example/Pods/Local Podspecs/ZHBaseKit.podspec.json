@@ -18,9 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZHBaseKit/Classes/ZHBaseKit/Base.h",
+  "source_files": "ZHBaseKit/Classes/**/*",
   "requires_arc": true,
-  "public_header_files": "ZHBaseKit/Classes/ZHBaseKit/Base.h",
+  "public_header_files": "ZHBaseKit/Classes/ZHBaseKit/*.h",
   "dependencies": {
     "Masonry": [
 
