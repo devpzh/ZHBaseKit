@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZHBaseKit_Example' do
+  pod 'ZHBaseKit', :path => '../'
+
+  target 'ZHBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
