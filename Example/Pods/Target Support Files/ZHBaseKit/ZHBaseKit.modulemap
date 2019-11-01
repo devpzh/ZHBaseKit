@@ -1,0 +1,6 @@
+framework module ZHBaseKit {
+  umbrella header "ZHBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

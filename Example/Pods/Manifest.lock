@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - ZHBaseKit (0.0.1):
+    - Masonry
+
+DEPENDENCIES:
+  - ZHBaseKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  ZHBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZHBaseKit: d62d3c52d25848b451a63f2f4722b2ef68547897
+
+PODFILE CHECKSUM: e16c40f001146fa19649447a4693f95e8f480ba6
+
+COCOAPODS: 1.8.4
