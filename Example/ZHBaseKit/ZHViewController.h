@@ -6,8 +6,9 @@
 //  Copyright (c) 2019 Panzhenghui. All rights reserved.
 //
 
-@import UIKit;
 
-@interface ZHViewController : UIViewController
+#import "ZHBaseTableBoard.h"
+
+@interface ZHViewController :ZHBaseTableBoard
 
 @end

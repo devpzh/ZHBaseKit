@@ -1,0 +1,14 @@
+//
+//  ZHBaseKitDemo.pch
+//  ZHBaseKit
+//
+//  Created by pzh on 2019/11/7.
+//  Copyright © 2019 Panzhenghui. All rights reserved.
+//
+
+#ifndef ZHBaseKitDemo_pch
+#define ZHBaseKitDemo_pch
+
+#import "ZHBase.h"
+
+#endif /* ZHBaseKitDemo_pch */

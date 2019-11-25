@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHBaseKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZHBaseKit'
 
 # This description is used to generate tags and improve search results.
@@ -36,12 +36,11 @@ Pod::Spec.new do |s|
   #   'ZHBaseKit' => ['ZHBaseKit/Assets/*.png']
   # }
 
+    s.source_files = 'ZHKits/Classes/**/*.{h,m}'
 
     s.public_header_files = 'ZHBaseKit/Classes/ZHBaseKit/*.h'
-    s.source_files = 'ZHBaseKit/Classes/**/*'
-
+   
     
-
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = ['UIKit', 'Foundation','AVFoundation']
     s.dependency 'Masonry'
 end
