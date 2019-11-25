@@ -17,7 +17,7 @@ static NSInteger  const kTableViewSectionHeaderFooterViewTag        = 10001;
 
 @interface UITableView (ZHBaseCell)
 
-//< Cell
+///< Cell
 + (UITableViewCell *)adTableView:(UITableView *)tableView
                cellAtIndexPath:(NSIndexPath *)indexPath
                          Class:(NSString*)className;

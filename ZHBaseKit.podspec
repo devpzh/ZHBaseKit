@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHBaseKit'
-  s.version          = '0.0.3'
+  s.version          = '1.0.0'
   s.summary          = 'ZHBaseKit'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'ZHBaseKit' => ['ZHBaseKit/Assets/*.png']
   # }
 
-    s.source_files = 'ZHKits/Classes/**/*.{h,m}'
+    s.source_files = 'ZHBaseKit/Classes/**/*.{h,m}'
 
     s.public_header_files = 'ZHBaseKit/Classes/ZHBaseKit/*.h'
    

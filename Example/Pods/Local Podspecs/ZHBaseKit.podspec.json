@@ -1,6 +1,6 @@
 {
   "name": "ZHBaseKit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "ZHBaseKit",
   "description": "A framework for data-driven UI and rapid development.",
   "homepage": "https://github.com/Panzhenghui/ZHBaseKit",
@@ -13,14 +13,19 @@
   },
   "source": {
     "git": "https://github.com/Panzhenghui/ZHBaseKit.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZHBaseKit/Classes/**/*",
   "requires_arc": true,
+  "source_files": "ZHBaseKit/Classes/**/*.{h,m}",
   "public_header_files": "ZHBaseKit/Classes/ZHBaseKit/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ],
   "dependencies": {
     "Masonry": [
 

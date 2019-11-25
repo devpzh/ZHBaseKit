@@ -7,7 +7,7 @@
 //
 
 #import "UICollectionView+ZHBaseCell.h"
-
+#import "ZHBase.h"
 @implementation UICollectionView (ZHBaseCell)
 
 

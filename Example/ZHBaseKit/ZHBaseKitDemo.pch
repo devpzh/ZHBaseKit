@@ -8,7 +8,6 @@
 
 #ifndef ZHBaseKitDemo_pch
 #define ZHBaseKitDemo_pch
-
-#import "ZHBase.h"
+#import <ZHBase.h>
 
 #endif /* ZHBaseKitDemo_pch */
