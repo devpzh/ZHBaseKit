@@ -150,7 +150,7 @@
 
 -(void)onNavigationLeftItemCreate
 {
-     [self showLeftItemWithImage:[UIImage imageNamed:@"back"]];
+     [self showLeftItemWithImage:[UIImage imageNamed:[ZHBaseKit appearance].backIconName]];
 }
 
 -(void)onNavigationRightItemCreate
@@ -164,9 +164,9 @@
    
     UILabel* lable      = [[UILabel alloc]init];
     lable.textAlignment = NSTextAlignmentCenter;
-    lable.font          = kFontBold(16);
     lable.text          = text;
-    lable.textColor     = kBarTitleColor;
+    lable.textColor     = [ZHBaseKit appearance].naviBarTitleColor;
+    lable.font          = [ZHBaseKit appearance].naviBarTitleFont;
     
     [self.titleView removeFromSuperview];
     self.titleView  = lable;
@@ -212,8 +212,8 @@
     [self.leftItem removeFromSuperview];
   
     UILabel* label      = [[UILabel alloc]init];
-    label.textColor     = kBarTitleColor;
-    label.font          = kFont(15);
+    label.textColor     = [ZHBaseKit appearance].leftItemTitleColor;
+    label.font          = [ZHBaseKit appearance].leftItemTitleFont;
     label.text          = text;
     label.textAlignment = NSTextAlignmentLeft;
    
@@ -278,8 +278,8 @@
     [self.rightItem removeFromSuperview];
   
     UILabel* label      = [[UILabel alloc]init];
-    label.textColor     = kBarTitleColor;
-    label.font          = kFont(15);
+    label.textColor     = [ZHBaseKit appearance].rightItemTitleColor;
+    label.font          = [ZHBaseKit appearance].rightItemTitleFont;
     label.text          = text;
     label.textAlignment = NSTextAlignmentRight;
    
@@ -423,7 +423,7 @@
     if (!_navigationBarSeparator)
     {
          _navigationBarSeparator = [[UIView alloc]init];
-         _navigationBarSeparator.backgroundColor = RGB(235.0, 235.0, 235.0);
+         _navigationBarSeparator.backgroundColor = [ZHBaseKit appearance].naviBarSeparatorColor;
     }
     return _navigationBarSeparator;
 }

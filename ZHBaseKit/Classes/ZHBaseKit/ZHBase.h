@@ -14,6 +14,7 @@
 #import "ZHProtocol.h"
 #import "ZHBaseCell.h"
 #import "ZHBaseCellModel.h"
+#import "ZHBaseKit.h"
 #import <Masonry/Masonry.h>
 
 #endif /* ZHBase_h */

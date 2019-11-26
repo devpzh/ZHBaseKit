@@ -13,11 +13,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-   
+    [self customization];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ZHViewController new]];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+
+-(void)customization
+{
+    [ZHBaseKit appearance].backIconName = @"back";
+    
 }
 
 

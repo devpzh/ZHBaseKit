@@ -22,6 +22,8 @@
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
 		2DEA7DF2BF5986CD6F356C81152A644F /* ZHTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654B5DB13CE1D204D79DF39DA9E131E /* ZHTableViewSection.m */; };
 		2F37682E600868EB56CED8D7C792C123 /* UICollectionView+ZHBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB54B87BE72C34FB2CF56DA36A5DCD1 /* UICollectionView+ZHBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300AF0AE238CB9EC00D99C5B /* ZHBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 300AF0AB238CB96F00D99C5B /* ZHBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300AF0AF238CB9F800D99C5B /* ZHBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 300AF0AA238CB96F00D99C5B /* ZHBaseKit.m */; };
 		30833EE78FC5DD587BEFCC5AF96BBD15 /* ZHTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FE1BCC04854C3A16FA65898D5E9AD3 /* ZHTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		337DD701E80808E0F262968DB32842B9 /* ZHBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EE34786511966202DFEAC9B5CD758D /* ZHBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33E03179169B623F247EEAEC2267CF19 /* ZHCollectionViewIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AA43BA91D48B847106CD0CEEC3B73E /* ZHCollectionViewIMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,14 +128,14 @@
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		0DED083EB0873A21B5683448665FF498 /* ZHProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHProxy.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHProxy.h; sourceTree = "<group>"; };
-		0E55DDEC3AADFDDA2312AEF70A59E98F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E55DDEC3AADFDDA2312AEF70A59E98F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		1A1F24038BA452DF22216C4CE5BDAE7A /* ZHBaseCollectionViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHBaseCollectionViewModel.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCollectionViewModel.m; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C212A2D07DD29DE74412685A5AF17D /* ZHBaseTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseTableViewModel.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseTableViewModel.h; sourceTree = "<group>"; };
 		257576D8E4F061338E78E4CE93DE484F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		28255960AFC1E2EAF830F886217F05C3 /* Pods-ZHBaseKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHBaseKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -141,6 +143,8 @@
 		2A1C5559AD4843E3F5A92709BF1A648B /* ZHBaseTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHBaseTableViewModel.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseTableViewModel.m; sourceTree = "<group>"; };
 		2BBA2BBAF79C42630E864D89C2924466 /* Pods-ZHBaseKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHBaseKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2ED6146736DD0D9D94722A524E64018C /* ZHBaseBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseBoard.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseBoard.h; sourceTree = "<group>"; };
+		300AF0AA238CB96F00D99C5B /* ZHBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHBaseKit.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseKit.m; sourceTree = "<group>"; };
+		300AF0AB238CB96F00D99C5B /* ZHBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHBaseKit.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseKit.h; sourceTree = "<group>"; };
 		32060D42CA0BE40808E270C5FEA3C9A8 /* Pods-ZHBaseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHBaseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		37A572343E7D1FF87C49B84E82C1D376 /* ZHCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHCollectionView.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHCollectionView.m; sourceTree = "<group>"; };
@@ -166,10 +170,10 @@
 		6E890828C163E226056FBA6EBB620543 /* ZHBaseCollectionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseCollectionViewModel.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCollectionViewModel.h; sourceTree = "<group>"; };
 		6FD93858A72BA88FFEF428ED6EDAE82A /* ZHBaseCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseCellModel.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCellModel.h; sourceTree = "<group>"; };
 		70B79D0D764874B37A9EB5EC4AB7F813 /* ZHBaseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHBaseKit.modulemap; sourceTree = "<group>"; };
-		70D847E8F6850316EA9068E0EB48ED77 /* Pods_ZHBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHBaseKit_Example.framework; path = "Pods-ZHBaseKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D847E8F6850316EA9068E0EB48ED77 /* Pods_ZHBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A13632DFC62970B5F015CE26F9ED98 /* ZHBaseCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseCollectionView.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCollectionView.h; sourceTree = "<group>"; };
 		7628F18317865FC2DB1BF86174F7525F /* Pods-ZHBaseKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHBaseKit_Example-dummy.m"; sourceTree = "<group>"; };
-		7C42CFAA03A207045FB99EDC8F9B8B5B /* Pods_ZHBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHBaseKit_Tests.framework; path = "Pods-ZHBaseKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C42CFAA03A207045FB99EDC8F9B8B5B /* Pods_ZHBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHBaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D21DE70750334828874DE67930E24DD /* ZHProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHProxy.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHProxy.m; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
@@ -186,7 +190,7 @@
 		9BF6D39B32B4EE5BEA81986129B4BF0C /* ZHCollectionViewIMP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHCollectionViewIMP.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHCollectionViewIMP.m; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB54B87BE72C34FB2CF56DA36A5DCD1 /* UICollectionView+ZHBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ZHBaseCell.h"; path = "ZHBaseKit/Classes/ZHBaseKit/UICollectionView+ZHBaseCell.h"; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A2BAE5D097F1AFA87839104623EC6D70 /* ZHTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHTableView.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHTableView.h; sourceTree = "<group>"; };
@@ -199,7 +203,7 @@
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		B6AA43BA91D48B847106CD0CEEC3B73E /* ZHCollectionViewIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHCollectionViewIMP.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHCollectionViewIMP.h; sourceTree = "<group>"; };
-		B725FC0471C35D50EFAA929AFD7B24F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B725FC0471C35D50EFAA929AFD7B24F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B738B39471ACEAB63521BFBDB1B5D243 /* ZHBaseCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHBaseCollectionView.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCollectionView.m; sourceTree = "<group>"; };
 		C4694718716F5E679697A7C2D1BC0862 /* Pods-ZHBaseKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHBaseKit_Example-Info.plist"; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
@@ -210,7 +214,7 @@
 		DA9EC821C0700EF9A37A4744F626A69B /* ZHTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHTableView.m; path = ZHBaseKit/Classes/ZHBaseKit/ZHTableView.m; sourceTree = "<group>"; };
 		DAD65967A00465C170C5A43DF69B228C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DC643EA674A50BA5D668375AA35B6AD4 /* ZHBaseTableBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseTableBoard.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseTableBoard.h; sourceTree = "<group>"; };
-		DD87308EE97AA5CFE9BEFAA0602DBF84 /* ZHBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD87308EE97AA5CFE9BEFAA0602DBF84 /* ZHBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZHBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E16C47DA2533CEB652BD9B3320C608B6 /* ZHBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBaseCell.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHBaseCell.h; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -221,7 +225,7 @@
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		F2641F37CF3647D17594E3759A35B85D /* ZHBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHBaseKit-prefix.pch"; sourceTree = "<group>"; };
-		F395F29D8726334D47943554ED7EBE2A /* ZHBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHBaseKit.framework; path = ZHBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F395F29D8726334D47943554ED7EBE2A /* ZHBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F750E51115ECA32297A2FE96AAA28FB2 /* ZHCollectionViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHCollectionViewSection.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHCollectionViewSection.h; sourceTree = "<group>"; };
 		F76F4E9560E18B0E736101A580854137 /* ZHProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHProtocol.h; path = ZHBaseKit/Classes/ZHBaseKit/ZHProtocol.h; sourceTree = "<group>"; };
 		FDC1D450901ED8AA8AE6437E57CB599C /* Pods-ZHBaseKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHBaseKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 		34FCBC7493FBDF4DC0B0A8A363841D0E /* ZHBaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				300AF0AB238CB96F00D99C5B /* ZHBaseKit.h */,
+				300AF0AA238CB96F00D99C5B /* ZHBaseKit.m */,
 				9EB54B87BE72C34FB2CF56DA36A5DCD1 /* UICollectionView+ZHBaseCell.h */,
 				60453AAF7B5110445F96EC0C7A5F0143 /* UICollectionView+ZHBaseCell.m */,
 				55CCC67554EFFCA6AB2E7EFBC3436D09 /* UITableView+ZHBaseCell.h */,
@@ -401,7 +407,6 @@
 				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
 				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -525,6 +530,7 @@
 				78DE2A2BFB284B0EA41DEDBADCCEA8C7 /* ZHTableView.h in Headers */,
 				F30C51A042F570582777512B4893752C /* ZHTableViewIMP.h in Headers */,
 				30833EE78FC5DD587BEFCC5AF96BBD15 /* ZHTableViewSection.h in Headers */,
+				300AF0AE238CB9EC00D99C5B /* ZHBaseKit.h in Headers */,
 				15FA3ED5F416C002F9E6807D60F62AF3 /* ZHUIMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,6 +743,7 @@
 				65181D65AA679CD6ED3E016DA869C258 /* ZHCollectionView.m in Sources */,
 				D1BDD61B03018719295FC53602EACA56 /* ZHCollectionViewIMP.m in Sources */,
 				F62D8D12084E2133B99B04CEF4947711 /* ZHCollectionViewSection.m in Sources */,
+				300AF0AF238CB9F800D99C5B /* ZHBaseKit.m in Sources */,
 				20BE1332430FFF64D58B2159D52B1B71 /* ZHProxy.m in Sources */,
 				A7B67856D0DEF4EF45902B6A7CB02C93 /* ZHTableView.m in Sources */,
 				95262217A99E75C59819940A41C87E11 /* ZHTableViewIMP.m in Sources */,
@@ -970,8 +977,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
