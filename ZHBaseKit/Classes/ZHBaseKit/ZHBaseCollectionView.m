@@ -54,27 +54,33 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     ZHBaseCollectionViewModel * collectionViewModel = (ZHBaseCollectionViewModel *)self.data;
-    collectionViewModel.contentOffset = scrollView.contentOffset;
+    if (collectionViewModel.openOffsetMemoryFunction)
+    {
+        collectionViewModel.contentOffset = scrollView.contentOffset;
+    }
+  
+    DEF_PROTOCOL(ZHBaseCollectionView, scrollViewDidEndDecelerating, scrollView);
     
 }
 
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
-    if (!decelerate)
+    ZHBaseCollectionViewModel *collectionViewModel = (ZHBaseCollectionViewModel *)self.data;
+   
+    if (!decelerate && collectionViewModel.openOffsetMemoryFunction)
     {
-        ZHBaseCollectionViewModel *collectionViewModel = (ZHBaseCollectionViewModel *)self.data;
-        collectionViewModel.contentOffset = scrollView.contentOffset;
+       collectionViewModel.contentOffset = scrollView.contentOffset;
     }
+   
     DEF_PROTOCOL(ZHBaseCollectionView, collectionViewDidEndDragging, @(decelerate))
-    
     
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
 
-    DEF_PROTOCOL(ZHBaseCollectionView, collectionViewDidScroll, scrollView);
+     DEF_PROTOCOL(ZHBaseCollectionView, collectionViewDidScroll, scrollView);
     
 }
 

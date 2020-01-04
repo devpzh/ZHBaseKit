@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///< 分组，默认一组 defaultSection
 @property (nonatomic,strong)  NSMutableArray <ZHCollectionViewSection *>* sectionsArray;
 
-@property (nonatomic,assign)  UIEdgeInsets edgeInset;
 
 ///< default is UICollectionViewScrollDirectionHorizontal
 @property (nonatomic,assign)  UICollectionViewScrollDirection scrollDirection;

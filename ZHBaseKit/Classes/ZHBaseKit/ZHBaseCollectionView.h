@@ -11,7 +11,7 @@
 
 
 NS_ASSUME_NONNULL_BEGIN
-AD_PROTOCOL2(ZHBaseCollectionView, collectionViewDidScroll, collectionViewDidEndDragging)
+AD_PROTOCOL3(ZHBaseCollectionView, collectionViewDidScroll,scrollViewDidEndDecelerating,collectionViewDidEndDragging)
 @interface ZHBaseCollectionView : ZHBaseCell
 @property (nonatomic, strong) ZHCollectionView * collectionView;
 
