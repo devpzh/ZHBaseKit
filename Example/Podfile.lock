@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - ZHBaseKit (1.0.0):
+  - ZHBaseKit (1.0.2):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ZHBaseKit: b6ab63dfd9d0e1b9f6de4c590aa00dd18e31c041
+  ZHBaseKit: 84c85d32c20d84b057dde2101e4f914a91023c18
 
 PODFILE CHECKSUM: 191b619e806e9e588eb627af1719ca4488d10531
 

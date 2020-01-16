@@ -100,6 +100,7 @@
    ZHTableViewSection * section = [self.sectionsArray objectAtIndex:indexPath.section];
    ZHBaseCellModel * model = [section.rowsArray objectAtIndex:indexPath.row];
    UITableViewCell * cell = [UITableView adTableView:tableView cellAtIndexPath:indexPath Class:model.cellClassName];
+   cell.selectionStyle = UITableViewCellSelectionStyleNone;
    ZHBaseCell * contentView = (ZHBaseCell *)[cell.contentView viewWithTag:kTableViewContentCellTag];
    contentView.data = model;
    

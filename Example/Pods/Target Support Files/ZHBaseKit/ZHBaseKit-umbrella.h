@@ -19,6 +19,7 @@
 #import "ZHBaseCollectionBoard.h"
 #import "ZHBaseCollectionView.h"
 #import "ZHBaseCollectionViewModel.h"
+#import "ZHBaseKit.h"
 #import "ZHBaseTableBoard.h"
 #import "ZHBaseTableView.h"
 #import "ZHBaseTableViewModel.h"
