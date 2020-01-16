@@ -9,7 +9,6 @@
 #ifndef ZHBase_h
 #define ZHBase_h
 
-#import "Masonry.h"
 #import "ZHUIMacro.h"
 #import "ZHProtocol.h"
 #import "ZHBaseCell.h"
