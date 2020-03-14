@@ -28,7 +28,8 @@
     if (!self.data) return;
     
     ZHBaseCollectionViewModel * model = (ZHBaseCollectionViewModel*)self.data;
-    
+    self.collectionView.delegate = model.delegate;
+    [self.collectionView onConfig];
     [self.collectionView onScrollDirection:model.scrollDirection];
     if (model.openOffsetMemoryFunction)
     {
@@ -49,6 +50,10 @@
     [self.collectionView reloadData];
 }
 
+-(void)reloadData
+{
+    [self.collectionView reloadData];
+}
 
 #pragma mark - UIScrollview delegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
@@ -86,13 +91,17 @@
 
 
 #pragma mark --- Lazy Loading
+-(UICollectionView *)actuallyCollectionView
+{
+    return self.collectionView.collectionView;
+}
+
 -(ZHCollectionView *)collectionView
 {
     if (!_collectionView)
     {
         _collectionView = [[ZHCollectionView alloc]init];
         [_collectionView addDelegate:self];
-        [_collectionView onConfig];
         [self addSubview:_collectionView];
     }
     
