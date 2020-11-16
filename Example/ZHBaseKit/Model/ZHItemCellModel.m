@@ -15,7 +15,7 @@
     if (self)
     {
         self.cellClassName = @"ZHItemCell";
-        self.cellWidth =  (kScreemWidth-40)/3-0.5;
+        self.cellWidth =  (kScreenWidth-40)/3-0.5;
         self.cellHeight = self.cellWidth;
     }
     return self;

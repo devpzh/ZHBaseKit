@@ -8,6 +8,7 @@
 
 #import "ZHSingleSectionTableBoard.h"
 #import "ZHSingleLabelCellModel.h"
+#import "ZHSingleLabelCell.h"
 
 @interface ZHSingleSectionTableBoard ()
 
@@ -48,6 +49,15 @@ ON_PROTOCOL(ZHSingleLabelCell, Touch, cell, data)
 {
     ZHSingleLabelCellModel *  model = (ZHSingleLabelCellModel*)data;
     NSLog(@"%@",model.content);
+    model.content = @"reload rows";
+    
+    ZHSingleLabelCell * tempCell = (ZHSingleLabelCell*)cell;
+    if (tempCell.reloadsRowsBlock)
+    {
+        tempCell.reloadsSectionsBlock();
+    }
+    
+    
     
 }
 

@@ -8,6 +8,7 @@
 
 #import "ZHMultipleSectionTableBoard.h"
 #import "ZHSingleLabelCellModel.h"
+#import "ZHSingleLabelCell.h"
 
 @interface ZHMultipleSectionTableBoard ()
 
@@ -56,8 +57,15 @@
 
 ON_PROTOCOL(ZHSingleLabelCell, Touch, cell, data)
 {
-       ZHSingleLabelCellModel * model = ( ZHSingleLabelCellModel*)data;
-       NSLog(@"%@",model.content);
+    ZHSingleLabelCellModel * model = ( ZHSingleLabelCellModel*)data;
+    NSLog(@"%@",model.content);
+    
+    model.content = @"reload sections";
+    ZHSingleLabelCell * tempCell = (ZHSingleLabelCell*)cell;
+    if (tempCell.reloadsSectionsBlock)
+    {
+        tempCell.reloadsSectionsBlock();
+    }
 }
 
 @end

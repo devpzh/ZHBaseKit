@@ -38,7 +38,7 @@
     
     
     ZHBaseCollectionViewModel * collectionViewModel = [[ZHBaseCollectionViewModel alloc]init];
-    collectionViewModel.cellHeight = ((kScreemWidth-40)/3-0.5)*2+10;
+    collectionViewModel.cellHeight = ((kScreenWidth-40)/3-0.5)*2+10;
     collectionViewModel.defaultSection.minimumLineSpacing      = 10;
     collectionViewModel.defaultSection.minimumInteritemSpacing = 10;
     

@@ -32,6 +32,16 @@
     
 }
 
+- (void)onTouch
+{
+    ZHItemCellModel * model = (ZHItemCellModel*)self.data;
+    model.content = @"reload items";
+    if (self.reloadsRowsBlock) {
+        self.reloadsRowsBlock();
+    }
+    
+}
+
 -(UILabel *)contentLb
 {
     if (!_contentLb)
