@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHBaseKit'
-  s.version          = '1.0.7'
+  s.version          = '1.0.6'
   s.summary          = 'ZHBaseKit'
 
 # This description is used to generate tags and improve search results.
