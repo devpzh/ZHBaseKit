@@ -12,13 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^ZHTableViewCellReloadRowsBlock)(void);
 typedef void(^ZHTableViewCellReloadSectionsBlock)(void);
+
 @interface ZHBaseCell : UIView
 
 -(void)onLoad;
 -(void)dataDidChanged;
 -(void)layoutDidFinish;
 -(void)onTouch;
-
 @property (nonatomic,strong) id data;
 @property (nonatomic,weak)   id delegate;
 @property (nonatomic,assign) BOOL tapEnabled;

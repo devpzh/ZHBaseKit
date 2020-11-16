@@ -35,7 +35,6 @@
     {
         dispatch_once(&onceToken, ^{
             [self onLoad];
-        
         });
     }
     
@@ -101,9 +100,7 @@
 
 -(void)dataDidChanged{}
 
-
 -(void)onTouch{}
-
 
 -(void)layoutSubviews
 {
