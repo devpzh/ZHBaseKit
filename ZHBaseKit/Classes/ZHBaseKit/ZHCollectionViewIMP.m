@@ -119,6 +119,40 @@
                                      .cellClassName];
     ZHBaseCell* contentView = (ZHBaseCell*)[cell.contentView viewWithTag:kCollectionViewContentCellTag];
     contentView.data = model;
+    
+    __weak typeof(collectionView) wCollectionView = collectionView;
+    [contentView setReloadsRowsBlock:^{
+        __strong typeof(wCollectionView) sCollectionView = wCollectionView;
+        if (sCollectionView)
+        {
+            if (indexPath.section < self.sectionsArray.count)
+            {
+                ZHCollectionViewSection * tSection = [self.sectionsArray objectAtIndex:indexPath.section];
+                if (indexPath.row < tSection.rowsArray.count)
+                {
+                    [UIView setAnimationsEnabled:false];
+                    [sCollectionView reloadItemsAtIndexPaths:@[indexPath]];
+                    [UIView setAnimationsEnabled:true];
+                }
+            }
+        }
+    }];
+    
+    [contentView setReloadsSectionsBlock:^{
+        __strong typeof(wCollectionView) sCollectionView = wCollectionView;
+        if (sCollectionView)
+        {
+            if (indexPath.section < self.sectionsArray.count)
+            {
+                NSIndexSet *indexSet = [[NSIndexSet alloc] initWithIndex:indexPath.section];
+                [UIView setAnimationsEnabled:false];
+                [sCollectionView reloadSections:indexSet];
+                [UIView setAnimationsEnabled:true];
+                
+            }
+            
+        }
+    }];
    
     return cell;
     

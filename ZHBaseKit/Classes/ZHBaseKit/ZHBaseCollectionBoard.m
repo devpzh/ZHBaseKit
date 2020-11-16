@@ -25,8 +25,8 @@
     [super onViewLayOut];
     self.collectionView.frame = CGRectMake(0,
                                   kNavigationBarHeight,
-                                  kScreemWidth,
-                                  kScreemHeight- kNavigationBarHeight);
+                                  kScreenWidth,
+                                  kScreenHeight- kNavigationBarHeight);
 }
 
 #pragma mark --- ZHCollectionViewDelegate

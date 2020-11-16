@@ -227,7 +227,7 @@
             make.right.lessThanOrEqualTo(self.titleView.mas_left).offset(-5);
         }else
         {
-            make.width.equalTo(@((kScreemWidth-kNavigationBarTitleViewWidth)/2-kPadding-5));
+            make.width.equalTo(@((kScreenWidth-kNavigationBarTitleViewWidth)/2-kPadding-5));
         }
         
     }];
@@ -293,7 +293,7 @@
             make.left.greaterThanOrEqualTo(self.titleView.mas_right).offset(5);
         }else
         {
-            make.width.equalTo(@((kScreemWidth-kNavigationBarTitleViewWidth)/2-kPadding-5));
+            make.width.equalTo(@((kScreenWidth-kNavigationBarTitleViewWidth)/2-kPadding-5));
         }
         
     }];

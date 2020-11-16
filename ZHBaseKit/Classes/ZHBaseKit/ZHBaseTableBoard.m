@@ -26,8 +26,8 @@
     [super onViewLayOut];
     self.tableView.frame = CGRectMake(0,
                                   kNavigationBarHeight,
-                                  kScreemWidth,
-                                  kScreemHeight- kNavigationBarHeight);
+                                  kScreenWidth,
+                                  kScreenHeight- kNavigationBarHeight);
 }
 
 

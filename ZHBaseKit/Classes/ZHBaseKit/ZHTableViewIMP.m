@@ -103,6 +103,41 @@
    cell.selectionStyle = UITableViewCellSelectionStyleNone;
    ZHBaseCell * contentView = (ZHBaseCell *)[cell.contentView viewWithTag:kTableViewContentCellTag];
    contentView.data = model;
+    
+    __weak typeof(tableView) wTableView= tableView;
+    [contentView setReloadsRowsBlock:^{
+        __strong typeof(wTableView) sTableView = wTableView;
+        if (sTableView)
+        {
+            if (indexPath.section < self.sectionsArray.count)
+            {
+                ZHTableViewSection * tSection = [self.sectionsArray objectAtIndex:indexPath.section];
+                if (indexPath.row < tSection.rowsArray.count)
+                {
+                    [UIView setAnimationsEnabled:false];
+                    [sTableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+                    [UIView setAnimationsEnabled:true];
+                }
+            }
+        }
+    }];
+    
+    [contentView setReloadsSectionsBlock:^{
+        __strong typeof(wTableView) sTableView = wTableView;
+        if (sTableView)
+        {
+            if (indexPath.section < self.sectionsArray.count)
+            {
+                NSIndexSet *indexSet = [[NSIndexSet alloc] initWithIndex:indexPath.section];
+                [UIView setAnimationsEnabled:false];
+                [sTableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationNone];
+                [UIView setAnimationsEnabled:true];
+                
+            }
+            
+        }
+    }];
+    
    
    return cell;
     

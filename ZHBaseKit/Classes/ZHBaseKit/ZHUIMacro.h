@@ -29,9 +29,9 @@
 
 
 #pragma mark size
-#define kScreemWidth        [UIScreen mainScreen].bounds.size.width
-#define kScreemHeight       [UIScreen mainScreen].bounds.size.height
-#define kNavigationBarTitleViewWidth      (kScreemWidth*2/3)
+#define kScreenWidth        [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight       [UIScreen mainScreen].bounds.size.height
+#define kNavigationBarTitleViewWidth      (kScreenWidth*2/3)
 
 
 #define kPadding 15.0
