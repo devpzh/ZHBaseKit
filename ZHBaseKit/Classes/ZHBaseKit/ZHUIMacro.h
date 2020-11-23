@@ -41,7 +41,13 @@
 #define kTabbarHeight         (is_iPhoneX ? 83.f : 49.f)
 #define kBottomPaddingHeight      (is_iPhoneX ? 34.f : 0.f) //部分页面底部按钮适配 iPhoneX 所需高度
 
-#define is_iPhoneX  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) ||    CGSizeEqualToSize(CGSizeMake(1242, 2688),  [[UIScreen mainScreen] currentMode].size) ||  CGSizeEqualToSize(CGSizeMake(828, 1792),   [[UIScreen mainScreen] currentMode].size)) : NO)
+#define is_iPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [UIApplication sharedApplication].keyWindow.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
 
 #define is_iPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 

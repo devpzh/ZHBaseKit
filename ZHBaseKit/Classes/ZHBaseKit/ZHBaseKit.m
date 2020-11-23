@@ -24,7 +24,7 @@
     self = [super init];
     if (self)
     {
-        self.backgroundColor        = [UIColor clearColor];
+        self.backgroundColor        = [UIColor whiteColor];
         self.naviBarBackgroundColor = [UIColor whiteColor];
         self.naviBarTitleColor      = [UIColor blackColor];
         self.naviBarTitleFont       = kFontBold(16);

@@ -71,7 +71,7 @@
 
 -(void)onViewCreate
 {
-     self.view.backgroundColor =   [UIColor whiteColor];
+     self.view.backgroundColor =  [ZHBaseKit appearance].backgroundColor;
      [self onNavigationBarCreate]; //默认创建导航栏
     
      if (!self.navigationController) return;

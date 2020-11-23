@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(instancetype)appearance;
 
-///< backgroundColor default clear
+///< backgroundColor default whiteColor
 @property (nonatomic, strong) UIColor * backgroundColor;
 
 ///< naviBarBackgroundColor   default white
