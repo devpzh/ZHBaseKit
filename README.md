@@ -20,9 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'ZHBaseKit'
 ```
 
-## Author
-
-
 ## License
 
 ZHBaseKit is available under the MIT license. See the LICENSE file for more info.
