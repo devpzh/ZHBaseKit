@@ -22,7 +22,6 @@ pod 'ZHBaseKit'
 
 ## Author
 
-Panzhenghui, panzhenghui@nami.com
 
 ## License
 
